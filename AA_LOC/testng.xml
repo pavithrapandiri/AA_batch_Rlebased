@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   <test thread-count="5" name="Test">
+  <groups>																																																	
+  <run>
+
+    
+   <!-- kiran group--> 
+   
+
+
+<!-- <include name="venkat_KS_LOC_Prod"/>    -->
+<!-- <include name="kiran_TN_LOC"/> 
+<include name="kiran_TN_LOC_Prod"/>  --> 
+<!-- <include name="revathi_TN_LOC"/>  -->
+<!-- <include name="srikanth_TN_LOC_Prod"/>  -->
+ <include name="srikanth_TN_LOC_Smoke"/>  
+ <!--  <include name="srikanth_KS_LOC_Smoke"/> --> 
+<!-- <include name="revathi_TN_LOC_Prod"/>  -->
+
+<!-- <include name="venkat_TN_LOC_Prod"/>  -->
+<!-- <include name="kiran_TN_LOC"/>  -->  
+<!-- <include name="leela_TN_LOC"/>  -->
+<!--  <include name="venkat_TN_LOC"/>  -->
+<!-- <include name="leela_TN_LOC"/>  -->
+ 
+       </run>
+  </groups>
+   <classes>
+     <!--  <class name="pack.AA_TN_LOC"/> -->
+<!--        <class name="pack.AA_TN_LOC_Prod"/> -->
+      <!--  <class name="pack.TN_LOC_Final"/> -->
+        <class name="pack.AA_TN_LOC_Smoke"/>
+        <!-- <class name="pack.AA_KS_LOC_Smoke"/>  -->
+      <!--  <class name="pack.AA_TN_LOC_Prod_1"/> -->
+     <!--   <class name="pack.AA_KS_LOC_Prod"/> -->
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

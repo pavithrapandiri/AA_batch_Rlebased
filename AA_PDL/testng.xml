@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+   <test thread-count="5" name="Test">
+  <groups>																																																	
+  <run>
+
+    
+
+
+<!-- <include name="Pavithra_FL_PDL_Smoke"/> --> 
+ <!-- <include name="Pavitra_TN_PDL1"/>  -->
+<!-- <include name="venkat_TN_PDL1"/>  -->
+<!-- <include name="chenna_WY_PDL1"/> -->
+<!-- <include name="Pavitra_KS_PDL"/> -->
+<!--  <include name="pavithra_MI_PDL"/>  -->
+ <!-- <include name="Pavithra_MO_PDL_Smoke"/>  -->
+
+
+ <include name="AA_PDL_RULE3"/> 
+<!-- <include name="venkat_FL_PDL1"/>  -->
+<!-- <include name="Pavitra_CA_PDL"/>  -->
+ <!-- <include name="Pavitra_KY_PDL"/>   -->
+<!-- <include name="chenna_KY_PDL_Smoke"/> -->
+
+
+       </run>
+  </groups>
+   <classes>
+     <!--  <class name="pack.AA_WY_PDL"/> -->
+      <!--  <class name="pack.AA_TN_PDL"/> -->
+       <!--  <class name="pack.AA_MI_PDL"/> -->
+     <!--  <class name="pack.AA_FL_PDL"/> -->
+       <!-- <class name="pack.AA_KS_PDL"/> -->
+       <class name="pack.AA_PDL_RULE"/>
+       <!--  <class name="pack.AA_CA_PDL"/> -->
+      <!--  <class name="pack.AA_KY_PDL"/> -->
+       <!--  <class name="pack.AA_KY_PDL_Smoke"/> -->
+        <!--  <class name="pack.AA_MO_PDL_Smoke"/> -->
+    <!--   <class name="pack.AA_FL_PDL_Smoke"/> --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

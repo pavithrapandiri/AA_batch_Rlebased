@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="srikanth_TN_LOC_Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="pack.AA_TN_LOC_Smoke">
+        <methods>
+          <include name="initialize"/>
+          <include name="quit"/>
+          <include name="Default_CustomerWO"/>
+          <include name="setup_Grid"/>
+          <include name="Draw_Deliquent_Statement"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- pack.AA_TN_LOC_Smoke -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

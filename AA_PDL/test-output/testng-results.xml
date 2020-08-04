@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="15" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="154244" started-at="2020-08-03T13:36:53Z" finished-at="2020-08-03T13:39:27Z">
+    <groups>
+      <group name="AA_PDL_RULE3">
+        <method signature="AA_PDL_RULE.BorrRegistration_NewLoan_performRPP_shouldnotallow()[pri:129, instance:pack.AA_PDL_RULE@5a8e6209]" name="BorrRegistration_NewLoan_performRPP_shouldnotallow" class="pack.AA_PDL_RULE"/>
+      </group> <!-- AA_PDL_RULE3 -->
+    </groups>
+    <test name="Test" duration-ms="154244" started-at="2020-08-03T13:36:53Z" finished-at="2020-08-03T13:39:27Z">
+      <class name="pack.AA_PDL_RULE">
+        <test-method status="PASS" signature="setup_Grid()[pri:0, instance:pack.AA_PDL_RULE@5a8e6209]" name="setup_Grid" is-config="true" duration-ms="7605" started-at="2020-08-03T13:36:53Z" finished-at="2020-08-03T13:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Grid -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pack.AA_PDL_RULE@5a8e6209]" name="initialize" is-config="true" duration-ms="110" started-at="2020-08-03T13:37:01Z" finished-at="2020-08-03T13:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="BorrRegistration_NewLoan_performRPP_shouldnotallow()[pri:129, instance:pack.AA_PDL_RULE@5a8e6209]" name="BorrRegistration_NewLoan_performRPP_shouldnotallow" duration-ms="145736" started-at="2020-08-03T13:37:01Z" finished-at="2020-08-03T13:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BorrRegistration_NewLoan_performRPP_shouldnotallow -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:pack.AA_PDL_RULE@5a8e6209]" name="getResult" is-config="true" duration-ms="188" started-at="2020-08-03T13:39:27Z" finished-at="2020-08-03T13:39:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BorrRegistration_NewLoan_performRPP_shouldnotallow status=SUCCESS method=AA_PDL_RULE.BorrRegistration_NewLoan_performRPP_shouldnotallow()[pri:129, instance:pack.AA_PDL_RULE@5a8e6209] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:pack.AA_PDL_RULE@5a8e6209]" name="quit" is-config="true" duration-ms="579" started-at="2020-08-03T13:39:27Z" finished-at="2020-08-03T13:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- pack.AA_PDL_RULE -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

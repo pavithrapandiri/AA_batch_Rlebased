@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="AA_PDL_RULE3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="pack.AA_PDL_RULE">
+        <methods>
+          <include name="setup_Grid"/>
+          <include name="BorrRegistration_NewLoan_performRPP_shouldnotallow"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- pack.AA_PDL_RULE -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36201" started-at="2019-12-23T08:50:01Z" finished-at="2019-12-23T08:50:38Z">
+    <groups>
+      <group name="chenna_WY_PDL">
+        <method signature="AA_WY_PDL.LoanwithACH_NACHA_ACHDepProc_ProcessClear()[pri:57, instance:pack.AA_WY_PDL@3e9b1010]" name="LoanwithACH_NACHA_ACHDepProc_ProcessClear" class="pack.AA_WY_PDL"/>
+      </group> <!-- chenna_WY_PDL -->
+    </groups>
+    <test name="Test" duration-ms="36201" started-at="2019-12-23T08:50:01Z" finished-at="2019-12-23T08:50:38Z">
+      <class name="pack.AA_WY_PDL">
+        <test-method status="PASS" signature="setup_Grid()[pri:0, instance:pack.AA_WY_PDL@3e9b1010]" name="setup_Grid" is-config="true" duration-ms="13425" started-at="2019-12-23T08:50:01Z" finished-at="2019-12-23T08:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Grid -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pack.AA_WY_PDL@3e9b1010]" name="initialize" is-config="true" duration-ms="396" started-at="2019-12-23T08:50:15Z" finished-at="2019-12-23T08:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="LoanwithACH_NACHA_ACHDepProc_ProcessClear()[pri:57, instance:pack.AA_WY_PDL@3e9b1010]" name="LoanwithACH_NACHA_ACHDepProc_ProcessClear" duration-ms="21202" started-at="2019-12-23T08:50:15Z" finished-at="2019-12-23T08:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanwithACH_NACHA_ACHDepProc_ProcessClear -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:pack.AA_WY_PDL@3e9b1010]" name="getResult" is-config="true" duration-ms="304" started-at="2019-12-23T08:50:36Z" finished-at="2019-12-23T08:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoanwithACH_NACHA_ACHDepProc_ProcessClear status=SUCCESS method=AA_WY_PDL.LoanwithACH_NACHA_ACHDepProc_ProcessClear()[pri:57, instance:pack.AA_WY_PDL@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:pack.AA_WY_PDL@3e9b1010]" name="quit" is-config="true" duration-ms="831" started-at="2019-12-23T08:50:37Z" finished-at="2019-12-23T08:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- pack.AA_WY_PDL -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

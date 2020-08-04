@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pack.NewLoan_FLILP">
+        <methods>
+          <include name="Loan_DFLT_WO_WORecPartPmt_VoidNextDay"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_Less1stInsatllPayment_CureenddateDefault"/>
+          <include name="LonI_Deceased"/>
+          <include name="tearDown"/>
+          <include name="DFLTLoan_EPPConvert_PpayAllInst_VoidLastInst_"/>
+          <include name="LonI_DFLT_Pymt_20percentofDFLTamt_EODbatchprocess_DFLTPLUS60"/>
+          <include name="Loan_DFLT_WO_WORecFullWithAllTenderTypes_"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_verify_"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_1stInsatllPayment_CureenddateDefault"/>
+          <include name="Loan_Deposit_Rtn_Payoff_Void"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_BiWeekly__"/>
+          <include name="quit"/>
+          <include name="getResult"/>
+          <include name="Pick_ILP_WriteOff_ConvertEpp_DepositAllinstOnduedate_Clear"/>
+          <include name="initialize"/>
+          <include name="LonI_IstInstPayment_ACTM_ACHRevoke_2ndInstDeposit_Verify_Record"/>
+          <include name="Loan_Deposit_Rtn_payoff"/>
+          <include name="loan_VoidEncryption"/>
+          <include name="CO_ILP_Loan_first_payment_BNK_Second_deposit"/>
+          <include name="DFLTLoan_EPPConvert_PpayAllInst_"/>
+          <include name="CO_ILP_MultipleDisbNewLoan_Void"/>
+          <include name="LonI_DFLT_PPN_BNK_1InstDeposit"/>
+          <include name="LonI_RunEODbatchon1Instduedate_AgainEODbatchfrom10thdayof1stInstduedate_Payment_Pastdue_1stInstamt"/>
+          <include name="Loan_1stdeposit_clr_payoff_clear_return_"/>
+          <include name="Loan_Pmt1stInstdate_Pmt2ndInstdate_void_EODBatch10days2Inst_payoff_"/>
+          <include name="LonI_WO_PPN_1stInstpymt_VoidPymt_RunEODbatch35daysfromduedate"/>
+          <include name="LonI_Bnkrupt_Deceased"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_BeforeCureenddateDefault"/>
+          <include name="Loan_1stParPmt_1stDep_Ret_"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_Monthly"/>
+          <include name="Loan_1stpayment_activemilitary_2ndpayment_"/>
+          <include name="AA_Loan_ACHRevoke_1stInsatallmentDeposit"/>
+          <include name="LonI_StoreDateafterRescindPeriod_Payment_selectpayanyotheramt_Pymtamtlessthan1stint"/>
+          <include name="setup_Grid"/>
+          <include name="CO_ILP_NewLoanVoid"/>
+          <include name="LonI_RunEODbatchon1Instduedate_Payment_PayPastDue_NextInstallment_VoidPymt"/>
+          <include name="AA_Loan_ACHRevoke_1stInsatallmentDeposit_Clear"/>
+          <include name="LonI_DFLT_Pymt_15percentofDFLTamt_EODbatchprocess_DFLTPLUS120"/>
+          <include name="AA_Loan_1stInstallmentPayments"/>
+          <include name="CO_ILP_Loan_DefaulPayment_Void"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_Weekly_"/>
+          <include name="Loan_1stDep_Ret_EODBatch10daysDueDate_PmtGreaterthanInstAmt_Void_"/>
+          <include name="LonI_Bnkrupt_Dismissed"/>
+          <include name="Loan_DFLT_WO_WORecFull_VoidWithAllTenderTypes"/>
+          <include name="CO_ILP_Loan_DefaulPartialPayment_EncryptionVoid"/>
+          <include name="LonI_1stInstdeposit_return_Payment_lessthan1stInstamount_VoidPayment"/>
+          <include name="CO_ILP_NewLoanRescind"/>
+          <include name="Loan_1stInstpartialpayment_1stInstdeposit_"/>
+          <include name="Loan_Deposit_RTN_EODBatchon10days_PaymentGeterthanLoanAmount"/>
+          <include name="Loan_Deposit_Rtn_paymentLessthanLoanAmount_Void"/>
+          <include name="Loan_PaymentinCSRPortel"/>
+          <include name="LonI_Bnkrupt_Discharge"/>
+          <include name="Loan_Bankrupt_Void_"/>
+          <include name="AA_Loan_ACHRevoke_1stInsatallmentPayment_ACHAuthorization_2ndIsatallmentDeposit"/>
+          <include name="LonI_StoreDateafterRescindPeriod_Payment_selectpayanyotheramt_Pymtamtlessthan1stint_VoidPymt"/>
+          <include name="DFLTLoan_EPPConvert_DepositAll_ClearAll_"/>
+          <include name="LonI_RunEODbatchon1Instduedate_Payment_PayPastDue_NextInstallment"/>
+          <include name="Loan_PmtAllInstExceptLast_DFLTLastInst_"/>
+          <include name="Loan_PaymentinCSRPortel_Void"/>
+          <include name="LonI_RunEODbatchon1Instduedate_AgainEODbatchfrom10thdayof1stInstduedate_Payment_Pastdue_1stInstamt_Void"/>
+          <include name="Loan_DFLT_WO_WORecPartPmtWithAllTenderTypes_"/>
+          <include name="Loan_1stInstDeposit_Rtn"/>
+          <include name="Pick_ILP_WriteoffLoan_ConvertEPP_PPayAllInstallementBeforeDueDate_Void"/>
+          <include name="Loan_PmtAllExceptLast_DepLast_Clear_Return_"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_MultiDisb_"/>
+          <include name="AA_Loan1stInsatallmentEODbatchprocess_Cure_Default"/>
+          <include name="BorrowerRegistration_ActiveMilitary_NewLoanNotProcessed_"/>
+          <include name="Loan_Deposit_Rtn_paymentGreaterthanLoanAmount"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_SemiMonthly"/>
+          <include name="Loan_DepositACH_"/>
+          <include name="LonI_IstInstPayment_ACTM_2ndInstDeposit_Verify_Record"/>
+          <include name="Loan_Deposit_Rtn_paymentLessthanLoanAmount"/>
+          <include name="Login_Homescreen_Borrower_Registration_NewLoan_ACH_"/>
+          <include name="Loan_Deposit_Rtn_clear_2InstDeposit_Return_EODBatchprocess_payoff"/>
+        </methods>
+      </class> <!-- pack.NewLoan_FLILP -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
